@@ -1,0 +1,15 @@
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\bin\Debug\net5.0\CustomerOnboarding.Domain.deps.json
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\bin\Debug\net5.0\CustomerOnboarding.Domain.runtimeconfig.json
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\bin\Debug\net5.0\CustomerOnboarding.Domain.runtimeconfig.dev.json
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\bin\Debug\net5.0\CustomerOnboarding.Domain.dll
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\bin\Debug\net5.0\ref\CustomerOnboarding.Domain.dll
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\bin\Debug\net5.0\CustomerOnboarding.Domain.pdb
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.csproj.AssemblyReference.cache
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.AssemblyInfoInputs.cache
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.AssemblyInfo.cs
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.dll
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\ref\CustomerOnboarding.Domain.dll
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.pdb
+C:\Users\tegbeat\source\repos\NEWCustomerOnboarding\CustomerOnboarding.Domain\obj\Debug\net5.0\CustomerOnboarding.Domain.genruntimeconfig.cache

@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f34dda95-c6cf-4194-9c29-4b8e18fef9b6": {
+      "ProjectGuid": "f34dda95-c6cf-4194-9c29-4b8e18fef9b6",
+      "DisplayName": "NEWCustomerOnboarding",
+      "ColorIndex": 0
+    },
+    "3defb4c7-29d1-48f0-a695-dd59f9237cef": {
+      "ProjectGuid": "3defb4c7-29d1-48f0-a695-dd59f9237cef",
+      "DisplayName": "CustomerOnboarding.Domain",
+      "ColorIndex": 1
+    },
+    "3f6c291a-8531-4916-a488-92b3f960c413": {
+      "ProjectGuid": "3f6c291a-8531-4916-a488-92b3f960c413",
+      "DisplayName": "CustomerOnboarding.Helpers",
+      "ColorIndex": 2
+    },
+    "da56b637-dbe5-450e-a5ef-e1c4cde83595": {
+      "ProjectGuid": "da56b637-dbe5-450e-a5ef-e1c4cde83595",
+      "DisplayName": "CustomerOnboarding.Services",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
