@@ -37,7 +37,7 @@ namespace CustomerOnboarding.Services.Service
 
         }
 
-        public async Task<Response<dynamic>> AddAsync(CustomerRegistrationDTO customer)
+        public async Task<Response<dynamic>> AddAsync(CustomerRegistrationDTO customer, ApplicationUser userInfo)
         {
             var existing = await GetCustomerDetails(customer.EmailAddress);
             if (existing != null)
@@ -45,7 +45,22 @@ namespace CustomerOnboarding.Services.Service
                 return Response<dynamic>.Send(false, "User already exists", HttpStatusCode.Conflict);
             }
             var newCustomer = Customer.CreateCustomer(customer); ;
-            await _context.Customers.AddAsync(newCustomer);
+            await _context.Customers.AddAsync(
+                new Customer
+                {
+                    FirstName = customer.FirstName,
+                    LastName = customer.LastName,
+                    EmailAddress = customer.EmailAddress,
+                    DateRegistered = DateTime.Now,
+                    StateofOrigin = customer.StateofOrigin,
+                    Gender = customer.Gender,
+                    ResidentialAddress = customer.ResidentialAddress,
+                    PhoneNumber = customer.PhoneNumber,
+                    User = userInfo
+
+
+                }
+                );
             await _context.SaveChangesAsync();
             return Response<dynamic>.Send(true, "Added Successfully");
         }

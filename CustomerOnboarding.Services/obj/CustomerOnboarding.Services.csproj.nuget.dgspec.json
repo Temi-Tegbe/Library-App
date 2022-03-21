@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
         "projectName": "CustomerOnboarding.Domain",
         "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
-        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,11 +118,11 @@
         "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
         "projectName": "CustomerOnboarding.Helpers",
         "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
-        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -222,11 +222,11 @@
         "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
         "projectName": "CustomerOnboarding.Services",
         "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
-        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

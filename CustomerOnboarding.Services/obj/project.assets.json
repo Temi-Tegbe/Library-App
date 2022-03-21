@@ -7281,7 +7281,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tegbeat\\.nuget\\packages\\": {}
+    "C:\\Users\\SBNTOP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -7289,11 +7289,11 @@
       "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
       "projectName": "CustomerOnboarding.Services",
       "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
-      "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

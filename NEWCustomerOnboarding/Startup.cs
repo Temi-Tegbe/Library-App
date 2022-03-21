@@ -21,6 +21,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Serilog;
 using Microsoft.AspNetCore.Identity;
+using CustomerOnboarding.Helpers;
 
 namespace NEWCustomerOnboarding
 {
@@ -96,6 +97,7 @@ namespace NEWCustomerOnboarding
               .AddEntityFrameworkStores<AppDbContext>()
               .AddDefaultTokenProviders();
             services.AddScoped<CustomerService>();
+            services.AddSingleton<Audit>();
         }
 
 
