@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {}
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
         "projectName": "CustomerOnboarding.Domain",
-        "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
-        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\obj\\",
+        "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
+        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentDateTime": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"

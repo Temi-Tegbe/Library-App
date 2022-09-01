@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj": {}
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
         "projectName": "CustomerOnboarding.Domain",
-        "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
-        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\obj\\",
+        "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
+        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentDateTime": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -112,17 +116,17 @@
         }
       }
     },
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj": {
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
+        "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
         "projectName": "CustomerOnboarding.Helpers",
-        "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
-        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\obj\\",
+        "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
+        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,8 +140,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
-                "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
+              "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
+                "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
               }
             }
           }
@@ -152,6 +156,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentDateTime": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -216,17 +224,17 @@
         }
       }
     },
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj": {
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
+        "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
         "projectName": "CustomerOnboarding.Services",
-        "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
-        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\obj\\",
+        "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
+        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -240,11 +248,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
-                "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
+              "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
+                "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
               },
-              "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj": {
-                "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj"
+              "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj": {
+                "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj"
               }
             }
           }
@@ -259,6 +267,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentDateTime": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -319,17 +331,17 @@
         }
       }
     },
-    "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj": {
+    "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
+        "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
         "projectName": "NEWCustomerOnboarding",
-        "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
-        "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\NEWCustomerOnboarding\\obj\\",
+        "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
+        "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -343,8 +355,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj": {
-                "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj"
+              "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj": {
+                "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj"
               }
             }
           }
@@ -359,6 +371,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentDateTime": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.13, )"

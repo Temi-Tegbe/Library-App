@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "FluentDateTime/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentDateTime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentDateTime.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -2133,6 +2142,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "FluentDateTime": "2.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.13",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.13",
@@ -2154,6 +2164,22 @@
     }
   },
   "libraries": {
+    "FluentDateTime/2.1.0": {
+      "sha512": "SQ6TqHbvgTjz8sc371R/63ZBCr2Nwp8dsGEyGDRUISUGD3++tnEPpEEWoDhMOP6dzI1MzthzMMTPkC9qHvYz2g==",
+      "type": "package",
+      "path": "fluentdatetime/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentdatetime.2.1.0.nupkg.sha512",
+        "fluentdatetime.nuspec",
+        "icon.png",
+        "lib/net6.0/FluentDateTime.dll",
+        "lib/net6.0/FluentDateTime.xml",
+        "lib/netstandard2.0/FluentDateTime.dll",
+        "lib/netstandard2.0/FluentDateTime.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -7243,6 +7269,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "CustomerOnboarding.Domain >= 1.0.0",
+      "FluentDateTime >= 2.1.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.13",
       "Microsoft.EntityFrameworkCore >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
@@ -7256,19 +7283,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SBNTOP\\.nuget\\packages\\": {}
+    "C:\\Users\\tegbeat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
       "projectName": "CustomerOnboarding.Helpers",
-      "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
-      "packagesPath": "C:\\Users\\SBNTOP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Helpers\\obj\\",
+      "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
+      "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\SBNTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7282,8 +7309,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
-              "projectPath": "C:\\Users\\tegbeat\\source\\repos\\NEWCustomerOnboarding\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
+            "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
+              "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
             }
           }
         }
@@ -7298,6 +7325,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "FluentDateTime": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[5.0.13, )"

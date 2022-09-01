@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\SBNTOP\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\SBNTOP\\.nuget\\packages"
+      "C:\\Users\\tegbeat\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tegbeat\\.nuget\\packages"
     ]
   }
 }

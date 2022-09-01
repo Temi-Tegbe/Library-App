@@ -12,6 +12,7 @@ namespace CustomerOnboarding.Services.Service
         public static void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<CustomerService>();
+            services.AddScoped<BookService>();
             //optionsBuilder.UseSqlServer("Server=10.0.41.101; Database=SpectaCreditCardDb; User=sa; Password=tylent; Connection Timeout=30;");
         }
     }

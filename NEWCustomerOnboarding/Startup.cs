@@ -96,8 +96,9 @@ namespace NEWCustomerOnboarding
             services.AddIdentity<ApplicationUser, ApplicationRole>()
               .AddEntityFrameworkStores<AppDbContext>()
               .AddDefaultTokenProviders();
-            services.AddScoped<CustomerService>();
+            //services.AddScoped<CustomerService>();
             services.AddSingleton<Audit>();
+           
         }
 
 

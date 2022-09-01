@@ -1,6 +1,7 @@
 ﻿using CustomerOnboarding.Domain.Model;
 using CustomerOnboarding.Domain.Model.DTO;
 using CustomerOnboarding.Helpers;
+using CustomerOnboarding.Services.Interface;
 using CustomerOnboarding.Services.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -22,11 +23,11 @@ namespace NEWCustomerOnboarding.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<ApplicationRole> _roleManager;
         private readonly IConfiguration _configuration;
-        private readonly CustomerService _customerService;
+        private readonly ICustomerService _customerService;
         private readonly AppDbContext _context;
         private readonly Audit _audit;
 
-        public CustomerController(IConfiguration configuration, CustomerService customerService, AppDbContext context, Audit audit, UserManager<ApplicationUser> userManager, RoleManager<ApplicationRole> roleManager)
+        public CustomerController(IConfiguration configuration, ICustomerService customerService, AppDbContext context, Audit audit, UserManager<ApplicationUser> userManager, RoleManager<ApplicationRole> roleManager)
         {
             _configuration = configuration;
             _customerService = customerService;

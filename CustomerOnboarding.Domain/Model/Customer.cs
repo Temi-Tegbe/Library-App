@@ -3,6 +3,7 @@ using CustomerOnboarding.Domain.Model.DTO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,8 +20,13 @@ namespace CustomerOnboarding.Domain.Model
         public long UserId { get; set; }
 
         public ApplicationUser User { get; set; }
+        public virtual int BookId { get; set; }
 
-      
+        [ForeignKey(nameof(BookId))]
+        public virtual Books Books { get; set; }
+
+        public virtual ICollection<Books> BookCollection { get;  set; }
+        public decimal OutstandingBalance { get; set; }
 
         [Required]
         public DateTime DateRegistered { get; set; }
@@ -34,6 +40,9 @@ namespace CustomerOnboarding.Domain.Model
             newCustomer.LastModified = DateTime.Now;
             return newCustomer;
         }
+
+
+        
 
 
     }

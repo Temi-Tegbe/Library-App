@@ -33,5 +33,7 @@ namespace CustomerOnboarding.Domain.Model
         [Phone]
         [Required(ErrorMessage = "Phone Number is required")]
         public string PhoneNumber { get; set; }
+
+        
     }
 }
