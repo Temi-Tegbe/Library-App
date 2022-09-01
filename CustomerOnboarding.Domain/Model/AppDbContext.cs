@@ -38,8 +38,8 @@ namespace CustomerOnboarding.Domain.Model
 
             modelBuilder.Entity<Customer>()
                 .HasMany(x => x.BookCollection);
-                
-            modelBuilder.Entity<Books>()
+
+            modelBuilder.Entity<Books>();
                 
             modelBuilder.Entity<ApplicationRole>()
               .Property("Id").UseIdentityColumn();

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\tegbeat\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\tegbeat\\.nuget\\packages"
+    ]
+  }
+}

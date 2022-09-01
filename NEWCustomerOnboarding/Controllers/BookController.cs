@@ -99,6 +99,7 @@ namespace NEWCustomerOnboarding.Controllers
 
         [HttpPost]
         [Route("Pay-Oustanding-Balance")]
+
         public async Task<IActionResult> PayOutstandingBalnce(long customerId, decimal balance)
         {
             var payBalance = _bookService.PayOutstandingBalance(balance, customerId );

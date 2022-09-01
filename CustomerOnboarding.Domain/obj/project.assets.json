@@ -7260,11 +7260,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
-      "projectName": "CustomerOnboarding.Domain",
-      "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\LibraryApp.Domain.csproj",
+      "projectName": "LibraryApp.Domain",
+      "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\LibraryApp.Domain.csproj",
       "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\obj\\",
+      "outputPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2138,7 +2138,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "CustomerOnboarding.Domain/1.0.0": {
+      "LibraryApp.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2155,10 +2155,10 @@
           "Serilog.Extensions.Logging.File": "2.0.0"
         },
         "compile": {
-          "bin/placeholder/CustomerOnboarding.Domain.dll": {}
+          "bin/placeholder/LibraryApp.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CustomerOnboarding.Domain.dll": {}
+          "bin/placeholder/LibraryApp.Domain.dll": {}
         }
       }
     }
@@ -7260,16 +7260,16 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "CustomerOnboarding.Domain/1.0.0": {
+    "LibraryApp.Domain/1.0.0": {
       "type": "project",
-      "path": "../CustomerOnboarding.Domain/CustomerOnboarding.Domain.csproj",
-      "msbuildProject": "../CustomerOnboarding.Domain/CustomerOnboarding.Domain.csproj"
+      "path": "../CustomerOnboarding.Domain/LibraryApp.Domain.csproj",
+      "msbuildProject": "../CustomerOnboarding.Domain/LibraryApp.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "CustomerOnboarding.Domain >= 1.0.0",
       "FluentDateTime >= 2.1.0",
+      "LibraryApp.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.13",
       "Microsoft.EntityFrameworkCore >= 5.0.13",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.13",
@@ -7288,11 +7288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
-      "projectName": "CustomerOnboarding.Helpers",
-      "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Helpers\\LibraryApp.Helpers.csproj",
+      "projectName": "LibraryApp.Helpers",
+      "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Helpers\\LibraryApp.Helpers.csproj",
       "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\obj\\",
+      "outputPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7309,8 +7309,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
-              "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
+            "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\LibraryApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\LibraryApp.Domain.csproj"
             }
           }
         }
