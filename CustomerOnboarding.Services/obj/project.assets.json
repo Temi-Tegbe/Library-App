@@ -7314,11 +7314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
+      "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
       "projectName": "CustomerOnboarding.Services",
-      "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
+      "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj",
       "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\obj\\",
+      "outputPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7335,11 +7335,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
-              "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
+            "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj": {
+              "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Domain\\CustomerOnboarding.Domain.csproj"
             },
-            "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj": {
-              "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj"
+            "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj": {
+              "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Helpers\\CustomerOnboarding.Helpers.csproj"
             }
           }
         }

@@ -17,6 +17,7 @@ namespace CustomerOnboarding.Domain.Model
 
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Books> Books { get; set; }
+        public DbSet<LendingHistory> LendingHistory { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,7 +40,7 @@ namespace CustomerOnboarding.Domain.Model
             modelBuilder.Entity<Customer>()
                 .HasMany(x => x.BookCollection);
                 
-            modelBuilder.Entity<Books>()
+
                 
             modelBuilder.Entity<ApplicationRole>()
               .Property("Id").UseIdentityColumn();

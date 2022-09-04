@@ -34,6 +34,7 @@
       "NEWCustomerOnboarding/1.0.0": {
         "dependencies": {
           "CustomerOnboarding.Services": "1.0.0",
+          "FluentDateTime": "2.1.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.13",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.13",
           "Microsoft.EntityFrameworkCore": "5.0.13",
@@ -321,6 +322,17 @@
         },
         "compile": {
           "NEWCustomerOnboarding.dll": {}
+        }
+      },
+      "FluentDateTime/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/FluentDateTime.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentDateTime.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -1865,6 +1877,7 @@
       },
       "CustomerOnboarding.Domain/1.0.0": {
         "dependencies": {
+          "FluentDateTime": "2.1.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.13",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.13",
@@ -1886,6 +1899,7 @@
       "CustomerOnboarding.Helpers/1.0.0": {
         "dependencies": {
           "CustomerOnboarding.Domain": "1.0.0",
+          "FluentDateTime": "2.1.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.13",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
@@ -1906,6 +1920,7 @@
         "dependencies": {
           "CustomerOnboarding.Domain": "1.0.0",
           "CustomerOnboarding.Helpers": "1.0.0",
+          "FluentDateTime": "2.1.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.13",
           "Microsoft.EntityFrameworkCore": "5.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
@@ -3548,6 +3563,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FluentDateTime/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SQ6TqHbvgTjz8sc371R/63ZBCr2Nwp8dsGEyGDRUISUGD3++tnEPpEEWoDhMOP6dzI1MzthzMMTPkC9qHvYz2g==",
+      "path": "fluentdatetime/2.1.0",
+      "hashPath": "fluentdatetime.2.1.0.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",

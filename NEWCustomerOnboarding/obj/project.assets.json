@@ -7526,11 +7526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
+      "projectUniqueName": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
       "projectName": "NEWCustomerOnboarding",
-      "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
+      "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\NEWCustomerOnboarding\\NEWCustomerOnboarding.csproj",
       "packagesPath": "C:\\Users\\tegbeat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\NEWCustomerOnboarding\\obj\\",
+      "outputPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\NEWCustomerOnboarding\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tegbeat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7547,8 +7547,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj": {
-              "projectPath": "C:\\Users\\tegbeat\\Source\\Repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj"
+            "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj": {
+              "projectPath": "C:\\Users\\tegbeat\\source\\repos\\LibraryApp\\CustomerOnboarding.Services\\CustomerOnboarding.Services.csproj"
             }
           }
         }

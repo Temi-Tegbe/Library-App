@@ -122,9 +122,16 @@ namespace CustomerOnboarding.Services.Service
                         findBook.BorrowedBy = null;
                         findBook.BorrowDate = null;
                         findBook.ExpectedReturnDate = null;
-                        findBook.Customer.OutstandingBalance = amountowed;
+                        findBook.Customer.OutstandingBalance += amountowed;
                         var updated = _context.Entry(findBook).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                         await _context.SaveChangesAsync();
+                        var findhistory1 = _context.LendingHistory.Where(x => x.Book.BookId == bookId).FirstOrDefault();
+                        if (findhistory1 != null)
+                        {
+                            findhistory1.Returned = true;
+                            var updateHistory = _context.Entry(findhistory1).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                            await _context.SaveChangesAsync();
+                        }
                         return Response<dynamic>.Send(true, "Book returned successfully");
                     }
 
@@ -134,6 +141,13 @@ namespace CustomerOnboarding.Services.Service
                     findBook.ExpectedReturnDate = null;
                     var update = _context.Entry(findBook).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                     await _context.SaveChangesAsync();
+                    var findhistory = _context.LendingHistory.Where(x => x.Book.BookId == bookId).FirstOrDefault();
+                    if (findhistory != null)
+                    {
+                        findhistory.Returned = true;
+                        var updateHistory = _context.Entry(findhistory).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                        await _context.SaveChangesAsync();
+                    }
                     return Response<dynamic>.Send(true, "Book returned successfully");
 
                 }
@@ -159,6 +173,7 @@ namespace CustomerOnboarding.Services.Service
                     firstFindBook.ExpectedReturnDate = DateTime.Now.AddDays(14);
                     var update = _context.Entry(firstFindBook).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                     await _context.SaveChangesAsync();
+                    await AddToHistory(bookId, borrowBookDTO);
                     return Response<dynamic>.Send(true, "Book succesfully borrowed", HttpStatusCode.OK);
                 }
                 return Response<dynamic>.Send(false, "An error has occured", HttpStatusCode.InternalServerError);
@@ -168,6 +183,24 @@ namespace CustomerOnboarding.Services.Service
 
                 throw;
             }
+        }
+
+    
+
+
+        public async Task<Response<dynamic>> AddToHistory (int book, BorrowBookDTO borrowBookDTO)
+        {
+            var newHistory = Utilities.MapTo<LendingHistory>(borrowBookDTO);
+            newHistory.Book.BookId = book;
+            newHistory.Customer.CustomerId = borrowBookDTO.BorrowerId;
+            newHistory.Returned = false;
+            newHistory.Date = DateTime.Now;
+            await _context.AddAsync(newHistory);
+            await _context.SaveChangesAsync();
+            return Response<dynamic>.Send(true, "Lending History Updated");
+
+
+
         }
 
         public static double GetBusinessDays(DateTime startD, DateTime endD)
@@ -181,6 +214,8 @@ namespace CustomerOnboarding.Services.Service
 
             return calcBusinessDays;
         }
+
+
 
     }
 }
