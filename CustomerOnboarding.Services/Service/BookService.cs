@@ -25,9 +25,9 @@ namespace CustomerOnboarding.Services.Service
             newBook.DateAdded = DateTime.Now;
             newBook.DateModified = DateTime.Now;
             newBook.IsBorrowed = false;
-            await _context.AddAsync(newBook);
-            await _context.SaveChangesAsync();
-            return Response<dynamic>.Send(true, "Book Added Succesfully");
+            await  _context.AddAsync(newBook);
+            await  _context.SaveChangesAsync();
+            return Response<dynamic>.Send(true, "Book Added Succesfully", HttpStatusCode.OK, newBook);
         }
         public async Task<PagedQueryResult<Books>> GetAllBooks(PagedQueryRequest request)
         {
@@ -65,7 +65,7 @@ namespace CustomerOnboarding.Services.Service
                 var findBook = _context.Books.Where(x => x.BookId == id).FirstOrDefault();
                 if (findBook != null)
                 {
-                   findBook.Name = editBookDTO.Name;
+                   findBook.Title = editBookDTO.Name;
                     findBook.Description = editBookDTO.Description;
                     findBook.Author = editBookDTO.Author;
                     var update = _context.Entry(findBook).State = Microsoft.EntityFrameworkCore.EntityState.Modified;

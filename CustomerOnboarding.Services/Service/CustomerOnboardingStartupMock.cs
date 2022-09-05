@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using CustomerOnboarding.Services.Interface;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,9 @@ namespace CustomerOnboarding.Services.Service
     {
         public static void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<CustomerService>();
-            services.AddScoped<BookService>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IBookService, BookService>();
+            services.AddScoped<ILendingHistoryService, LendingHistoryService>();
             //optionsBuilder.UseSqlServer("Server=10.0.41.101; Database=SpectaCreditCardDb; User=sa; Password=tylent; Connection Timeout=30;");
         }
     }

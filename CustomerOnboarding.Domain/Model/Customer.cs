@@ -1,11 +1,13 @@
 ﻿using CustomerOnboarding.Domain.Helpers;
 using CustomerOnboarding.Domain.Model.DTO;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+
 using System.Threading.Tasks;
 
 namespace CustomerOnboarding.Domain.Model
@@ -20,12 +22,13 @@ namespace CustomerOnboarding.Domain.Model
         public long UserId { get; set; }
 
         public ApplicationUser User { get; set; }
-        public virtual int BookId { get; set; }
+        public long? BookId { get; set; }
 
-        [ForeignKey(nameof(BookId))]
-        public virtual Books Books { get; set; }
+        //[ForeignKey(nameof(BookId))]
+        
+        public  virtual Books Book { get; set; }
 
-        public virtual ICollection<Books> BookCollection { get;  set; }
+        //public virtual ICollection<Books> BookCollection { get;  set; }
         public decimal OutstandingBalance { get; set; }
 
         [Required]

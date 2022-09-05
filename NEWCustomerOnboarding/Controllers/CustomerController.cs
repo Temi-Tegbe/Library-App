@@ -37,18 +37,22 @@ namespace NEWCustomerOnboarding.Controllers
             _roleManager = roleManager;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("list-all-Customers")]
         [Produces("application/json", "application/xml", Type = typeof(Response<List<Customer>>))]
 
-        public async Task<IEnumerable<Customer>> GetAllCustomers()
+        public async Task <PagedQueryResult<Customer>> GetAllCustomers(PagedQueryRequest request)
         {
             try
             {
 
 
-                var allCustomers = await _context.Customers.ToListAsync();
-                return allCustomers;
+                var allCustomers = await _customerService.GetAllCustomers(request);
+                if (allCustomers != null)
+                {
+                    return allCustomers;
+                }
+                return null;
             }
             catch (Exception ex)
             {

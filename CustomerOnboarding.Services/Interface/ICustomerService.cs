@@ -13,5 +13,7 @@ namespace CustomerOnboarding.Services.Interface
     {
         Task<Response<dynamic>> AddAsync(CustomerRegistrationDTO customer, ApplicationUser userInfo);
         Task<Response<dynamic>> Login(CustomerLoginDTO login);
+
+        Task<PagedQueryResult<Customer>> GetAllCustomers(PagedQueryRequest request);
     }
 }

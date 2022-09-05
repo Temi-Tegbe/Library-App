@@ -1,6 +1,7 @@
 ﻿using CustomerOnboarding.Domain.Model;
 using CustomerOnboarding.Domain.Model.DTO;
 using CustomerOnboarding.Helpers;
+using CustomerOnboarding.Services.Interface;
 using CustomerOnboarding.Services.Options;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,7 @@ using System.Threading.Tasks;
 
 namespace CustomerOnboarding.Services.Service
 {
-    public class CustomerService
+    public class CustomerService : ICustomerService
     {
 
         private readonly AppDbContext _context;
@@ -104,6 +105,20 @@ namespace CustomerOnboarding.Services.Service
             return result;
         }
 
+        public async Task<PagedQueryResult<Customer>> GetAllCustomers(PagedQueryRequest request)
+        {
+            try
+            {
+                var allCustomers = _context.Customers.OrderByDescending(x => x.DateRegistered);
+                return allCustomers.ToPagedResult(request.PageNumber, request.PageSize);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+        }
 
 
     }

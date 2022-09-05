@@ -1,5 +1,6 @@
 ﻿using CustomerOnboarding.Domain.Model;
 using CustomerOnboarding.Helpers;
+using CustomerOnboarding.Services.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CustomerOnboarding.Services.Service
 {
-    public class LendingHistoryService
+    public class LendingHistoryService : ILendingHistoryService
     {
         private readonly AppDbContext _context;
 

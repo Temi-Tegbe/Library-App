@@ -37,9 +37,9 @@ namespace NEWCustomerOnboarding.Controllers
 
         [HttpPost]
         [Route("Add-new-book")]
-        public Response<dynamic> AddBook(AddBooksDTO books)
+        public async Task<Response<dynamic>> AddBook(AddBooksDTO books)
         {
-            var addBooks = _bookService.AddBooks(books);
+            var addBooks = await _bookService.AddBooks(books);
             if (addBooks != null)
             {
                 return Response<dynamic>.Send(true, "Book Added Succesfully", System.Net.HttpStatusCode.OK, addBooks);
